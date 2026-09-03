@@ -26,8 +26,8 @@ const Footer = () => (
   <footer className="mt-4 border-t border-border bg-secondary/40">
     <div className="max-w-7xl mx-auto px-4 py-12 grid gap-10 md:grid-cols-2 lg:grid-cols-5">
       <div className="lg:col-span-2">
-        <div className="flex items-center gap-2 mb-4">
-          <div className="h-9 w-9 rounded-xl bg-primary text-primary-foreground grid place-items-center font-head font-extrabold">S</div>
+        <div className="flex items-center gap-2.5 mb-4">
+          <img src="/suvidha-logo.png" alt="SUVIDHA AI" className="h-11 w-11 object-contain" />
           <div className="font-head font-extrabold text-xl"><span className="text-primary">SUVIDHA</span> <span className="text-[hsl(var(--saffron))]">AI</span></div>
         </div>
         <p className="text-sm text-muted-foreground max-w-sm leading-relaxed">

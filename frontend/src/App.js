@@ -11,6 +11,8 @@ import Discover from './pages/Discover';
 import Documents from './pages/Documents';
 import Results from './pages/Results';
 import CSCBridge from './pages/CSCBridge';
+import SchemeExplorer from './pages/SchemeExplorer';
+import SchemeDetail from './pages/SchemeDetail';
 
 const ScrollTop = () => {
   const { pathname } = useLocation();
@@ -31,6 +33,8 @@ function App() {
             <Route path="/documents" element={<Documents />} />
             <Route path="/results" element={<Results />} />
             <Route path="/csc-bridge" element={<CSCBridge />} />
+            <Route path="/schemes" element={<SchemeExplorer />} />
+            <Route path="/schemes/:id" element={<SchemeDetail />} />
           </Routes>
           <Footer />
           <AccessibilityWidget />

@@ -32,7 +32,6 @@ const Header = () => {
           <div className="flex items-center gap-2.5">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Emblem of India" className="h-7 w-7" />
             <span className="font-medium hidden sm:inline">Government of India</span>
-            <span className="hidden md:inline">| Ministry of Social Justice &amp; Empowerment</span>
           </div>
         </div>
       </div>
@@ -40,7 +39,7 @@ const Header = () => {
       {/* Main bar */}
       <div className="max-w-7xl mx-auto px-4 h-[68px] flex items-center gap-4">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <LogoFull />
+          <LogoFull compact />
         </Link>
 
         <div className="hidden lg:flex flex-1 max-w-md items-center gap-2 bg-secondary/70 border border-border rounded-full px-4 h-11">
@@ -66,10 +65,6 @@ const Header = () => {
               </SelectContent>
             </Select>
           </div>
-
-          <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="h-9 w-9 grid place-items-center rounded-full border border-border hover:bg-secondary transition-colors" aria-label="Toggle theme">
-            {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-          </button>
 
           <Button onClick={() => navigate('/discover')} className="rounded-full gap-1 hidden sm:flex">
             Sign In <ArrowRight className="h-4 w-4" />

@@ -11,6 +11,7 @@ import {
   Accordion, AccordionContent, AccordionItem, AccordionTrigger,
 } from '../components/ui/accordion';
 import Hero from '../components/Hero';
+import AnimatedCounter from '../components/AnimatedCounter';
 import { STATS, PIPELINE, CATEGORIES, FAQS } from '../data/mock';
 
 const ICONS = {
@@ -31,7 +32,9 @@ const Home = () => {
           {STATS.map((s, i) => (
             <Card key={s.label} className="rounded-2xl border-transparent p-6 text-center hover-lift relative overflow-hidden"
               style={{ background: i % 2 ? 'hsl(var(--saffron) / 0.08)' : 'hsl(var(--primary) / 0.06)' }}>
-              <p className={`font-head font-extrabold text-3xl md:text-4xl ${i % 2 ? 'text-[hsl(var(--saffron))]' : 'text-primary'}`}>{s.value}</p>
+              <p className={`font-head font-extrabold text-3xl md:text-4xl ${i % 2 ? 'text-[hsl(var(--saffron))]' : 'text-primary'}`}>
+                <AnimatedCounter value={s.value} />
+              </p>
               <p className="font-semibold mt-1">{s.label}</p>
               <p className="text-xs text-muted-foreground mt-0.5">{s.sub}</p>
             </Card>

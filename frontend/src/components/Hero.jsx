@@ -54,14 +54,14 @@ const Hero = () => {
       {/* ---- content ---- */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-12 md:py-16 grid lg:grid-cols-2 gap-10 items-center relative z-10">
         {/* LEFT: photo card + badge */}
-        <div className="relative">
-          <div className="absolute -top-4 -left-4 h-24 w-40 rounded-3xl bg-primary/25 hidden sm:block" aria-hidden />
+        <div className="relative lg:-mr-6">
+          <div className="absolute -top-4 -left-4 h-28 w-48 rounded-3xl bg-primary/20 hidden sm:block" aria-hidden />
           <div key={s.image} className="relative rounded-[1.5rem] overflow-hidden shadow-2xl fade-up">
-            <img src={s.image} alt={s.title.join(' ')} className="w-full h-[300px] md:h-[380px] object-cover" />
+            <img src={s.image} alt={s.title.join(' ')} className="w-full h-[340px] md:h-[460px] object-cover" />
           </div>
-          <div className="absolute -bottom-5 left-6 right-14 sm:right-24 bg-[hsl(var(--gov-navy))] text-white rounded-xl px-5 py-4 shadow-xl">
+          <div className="absolute -bottom-5 left-6 right-10 sm:right-20 bg-[hsl(var(--gov-navy))] text-white rounded-xl px-5 py-4 shadow-xl">
             <p className="font-head font-bold text-lg leading-snug">
-              {s.badge[0]}<span className="text-[hsl(var(--saffron))] text-2xl">{s.badge[1]}</span>{s.badge[2]}
+              {s.badge[0]}<span className="text-[hsl(var(--saffron))] text-2xl">{s.badge[1]}</span>{s.badge[2] || ''}
             </p>
           </div>
         </div>

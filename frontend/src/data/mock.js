@@ -11,21 +11,39 @@ export const LANGUAGES = [
 export const SCHEME_BANNERS = [
   {
     title: ['Prime Minister', 'Vidyalaxmi Scheme'],
-    lines: ['Empowering Yuva Shakti with quality education', 'Collateral-Free, Guarantor-Free loans to students', 'Loan without collateral or guarantor'],
-    badge: ['Loans up to ', '\u20b97.5L', ' with 75% govt. guarantee'],
+    lines: ['Empowering Yuva Shakti with quality education', 'Merit-based support for higher studies', 'Enabling students to pursue their dreams'],
+    badge: ['Education support with ', '75%', ' govt. guarantee'],
     image: 'https://images.pexels.com/photos/31968811/pexels-photo-31968811.jpeg',
   },
   {
-    title: ['PM-DAKSH', 'Skilling & Stipend'],
-    lines: ['Free skill development for SC/OBC/EBC & Safai Karamchari', 'Certified training with placement support', 'Monthly stipend paid during training'],
+    title: ['PM-DAKSH', 'Skilling Scheme'],
+    lines: ['Free skill development for SC / OBC / EBC', 'Certified training with placement support', 'Monthly stipend paid during training'],
     badge: ['Stipend of ', '\u20b93,000', ' + free certification'],
     image: 'https://images.pexels.com/photos/33925031/pexels-photo-33925031.jpeg',
   },
   {
     title: ['Stand-Up India', 'for Women & SC/ST'],
-    lines: ['Composite bank loans for greenfield enterprises', 'Dedicated hand-holding for first-time entrepreneurs', 'Backed by NSFDC & MoSJE corporations'],
-    badge: ['Loans of ', '\u20b910L\u2013\u20b91Cr', ' for new ventures'],
+    lines: ['Support for greenfield enterprises', 'Dedicated hand-holding for entrepreneurs', 'Backed by NSFDC & MoSJE corporations'],
+    badge: ['End-to-end support for ', 'new ventures'],
     image: 'https://images.unsplash.com/photo-1587538018365-2a1f8b544c08',
+  },
+  {
+    title: ['NSFDC', 'Aajeevika Scheme'],
+    lines: ['Livelihood support for Scheduled Caste families', 'Concessional finance for income activities', 'Marketing & self-employment assistance'],
+    badge: ['Livelihood support up to ', '\u20b91.4L'],
+    image: 'https://images.unsplash.com/photo-1521401415461-83e7162b8e64',
+  },
+  {
+    title: ['ADIP Scheme', 'for Divyangjan'],
+    lines: ['Assistive aids & appliances for Persons with Disability', 'Free fitment camps across districts', 'Restoring mobility and dignity'],
+    badge: ['Free aids & appliances for ', 'Divyangjan'],
+    image: 'https://images.pexels.com/photos/11091107/pexels-photo-11091107.jpeg',
+  },
+  {
+    title: ['NBCFDC', 'SHG Livelihood'],
+    lines: ['Empowering Backward Class Self-Help Groups', 'Micro-finance for women collectives', 'Skill upgradation & market linkage'],
+    badge: ['Empowering ', 'Self-Help Groups'],
+    image: 'https://images.unsplash.com/photo-1604331517254-54c781bad47c',
   },
 ];
 

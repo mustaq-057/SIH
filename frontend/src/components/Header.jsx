@@ -28,14 +28,11 @@ const Header = () => {
 
       {/* Gov top bar */}
       <div className="bg-secondary/60 border-b border-border/70">
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-9 text-[12px] text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Emblem of India" className="h-5 w-5 opacity-80" />
+        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-10 text-[12px] text-muted-foreground">
+          <div className="flex items-center gap-2.5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Emblem of India" className="h-7 w-7" />
             <span className="font-medium hidden sm:inline">Government of India</span>
             <span className="hidden md:inline">| Ministry of Social Justice &amp; Empowerment</span>
-          </div>
-          <div className="flex items-center gap-4">
-            <a href="tel:18001100031" className="hover:text-primary transition-colors">Toll Free: 1800-11-0031</a>
           </div>
         </div>
       </div>

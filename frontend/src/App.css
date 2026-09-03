@@ -13,8 +13,8 @@
     linear-gradient(180deg,#0a1912 0%, #08120d 100%);
 }
 
-.section-soft { background: linear-gradient(180deg,#f6fbf7,#ffffff); }
-.dark .section-soft { background: linear-gradient(180deg,#0a1710,#08120d); }
+.section-soft { background: linear-gradient(180deg,#f7f7f8,#ffffff); }
+.dark .section-soft { background: linear-gradient(180deg,#0d1310,#08120d); }
 
 .scrollbar-hide::-webkit-scrollbar { display:none; }
 .scrollbar-hide { -ms-overflow-style:none; scrollbar-width:none; }

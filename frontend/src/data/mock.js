@@ -10,6 +10,12 @@ export const LANGUAGES = [
 
 export const SCHEME_BANNERS = [
   {
+    title: ['AI-Driven Scheme', 'Matching for You'],
+    lines: ['Built for marginalized entrepreneurs — SC/ST, OBC,', 'EBC, Divyangjan & Transgender business owners', 'Speak once — get matched, audited & bundled schemes'],
+    badge: ['A personalised scheme stack for ', 'your business'],
+    image: 'https://images.unsplash.com/photo-1641810290385-e6387a1ac187',
+  },
+  {
     title: ['Prime Minister', 'Vidyalaxmi Scheme'],
     lines: ['Empowering Yuva Shakti with quality education', 'Merit-based support for higher studies', 'Enabling students to pursue their dreams'],
     badge: ['Education support with ', '75%', ' govt. guarantee'],

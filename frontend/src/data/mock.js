@@ -8,6 +8,27 @@ export const LANGUAGES = [
   'डोगरी (Dogri)','कॉशुर (Kashmiri)','संताली (Santali)','सिन्धी (Sindhi)'
 ];
 
+export const SCHEME_BANNERS = [
+  {
+    title: ['Prime Minister', 'Vidyalaxmi Scheme'],
+    lines: ['Empowering Yuva Shakti with quality education', 'Collateral-Free, Guarantor-Free loans to students', 'Loan without collateral or guarantor'],
+    badge: ['Loans up to ', '\u20b97.5L', ' with 75% govt. guarantee'],
+    image: 'https://images.pexels.com/photos/31968811/pexels-photo-31968811.jpeg',
+  },
+  {
+    title: ['PM-DAKSH', 'Skilling & Stipend'],
+    lines: ['Free skill development for SC/OBC/EBC & Safai Karamchari', 'Certified training with placement support', 'Monthly stipend paid during training'],
+    badge: ['Stipend of ', '\u20b93,000', ' + free certification'],
+    image: 'https://images.pexels.com/photos/33925031/pexels-photo-33925031.jpeg',
+  },
+  {
+    title: ['Stand-Up India', 'for Women & SC/ST'],
+    lines: ['Composite bank loans for greenfield enterprises', 'Dedicated hand-holding for first-time entrepreneurs', 'Backed by NSFDC & MoSJE corporations'],
+    badge: ['Loans of ', '\u20b910L\u2013\u20b91Cr', ' for new ventures'],
+    image: 'https://images.unsplash.com/photo-1587538018365-2a1f8b544c08',
+  },
+];
+
 export const HERO_SLIDES = [
   {
     tagTop: 'Ministry of Social Justice & Empowerment',

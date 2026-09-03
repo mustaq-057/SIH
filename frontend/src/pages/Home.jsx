@@ -25,13 +25,8 @@ const Home = () => {
     <main>
       <Hero />
 
-      {/* HASHTAG + STATS */}
+      {/* STATS */}
       <section className="section-soft py-14">
-        <p className="text-center font-head font-bold text-xl md:text-2xl tracking-wide mb-10">
-          <span className="text-[hsl(var(--saffron))]">#SCHEMESFOREVERYONE</span>
-          <span className="text-muted-foreground"> / </span>
-          <span className="text-primary">#आपकीसुविधा</span>
-        </p>
         <div className="max-w-6xl mx-auto px-4 grid grid-cols-2 lg:grid-cols-4 gap-5">
           {STATS.map((s, i) => (
             <Card key={s.label} className="rounded-2xl border-transparent p-6 text-center hover-lift relative overflow-hidden"

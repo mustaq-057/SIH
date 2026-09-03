@@ -82,3 +82,29 @@
   background: linear-gradient(180deg,#f4fbf6, #ffffff);
 }
 .dark .phone-screen { background: linear-gradient(180deg,#0d160f,#0f1a13); }
+
+/* ---- Scheme banner hero (myScheme clone) ---- */
+.scheme-hero { background: #ffffff; }
+.dark .scheme-hero { background: hsl(var(--background)); }
+
+.scheme-arrow {
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50%);
+  z-index: 20;
+  height: 44px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  background: hsl(var(--primary));
+  color: #fff;
+  box-shadow: 0 8px 20px -8px rgba(16,64,40,.5);
+  transition: filter .2s ease, transform .2s ease;
+}
+.scheme-arrow:hover { filter: brightness(1.08); }
+
+.hero-sphere {
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #b7e39a 0%, #6cbf4a 45%, #2f8f2f 100%);
+  box-shadow: 0 10px 24px -8px rgba(47,143,47,.55);
+}

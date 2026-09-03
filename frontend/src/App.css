@@ -1,0 +1,20 @@
+.App { min-height: 100vh; }
+
+.hero-glow {
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(255,153,51,.18), transparent 60%),
+    radial-gradient(900px 500px at 10% 10%, rgba(19,136,8,.14), transparent 55%),
+    linear-gradient(180deg,#f2fbf5 0%, #fef8f0 60%, #ffffff 100%);
+}
+.dark .hero-glow {
+  background:
+    radial-gradient(1000px 500px at 80% -10%, rgba(255,153,51,.12), transparent 60%),
+    radial-gradient(900px 500px at 10% 10%, rgba(19,136,8,.12), transparent 55%),
+    linear-gradient(180deg,#0a1912 0%, #08120d 100%);
+}
+
+.section-soft { background: linear-gradient(180deg,#f6fbf7,#ffffff); }
+.dark .section-soft { background: linear-gradient(180deg,#0a1710,#08120d); }
+
+.scrollbar-hide::-webkit-scrollbar { display:none; }
+.scrollbar-hide { -ms-overflow-style:none; scrollbar-width:none; }

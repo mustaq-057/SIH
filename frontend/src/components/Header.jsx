@@ -7,6 +7,7 @@ import {
 } from './ui/select';
 import { useWizard } from '../context/WizardContext';
 import { LANGUAGES } from '../data/mock';
+import { LogoFull } from './Logo';
 
 const NAV = [
   { label: 'Home', to: '/' },
@@ -34,8 +35,7 @@ const Header = () => {
             <span className="hidden md:inline">| Ministry of Social Justice &amp; Empowerment</span>
           </div>
           <div className="flex items-center gap-4">
-            <span className="hidden sm:inline">GIGW 3.0 Compliant</span>
-            <span>Skip to main content</span>
+            <a href="tel:18001100031" className="hover:text-primary transition-colors">Toll Free: 1800-11-0031</a>
           </div>
         </div>
       </div>
@@ -43,14 +43,7 @@ const Header = () => {
       {/* Main bar */}
       <div className="max-w-7xl mx-auto px-4 h-[68px] flex items-center gap-4">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <div className="h-9 w-9 rounded-xl bg-primary text-primary-foreground grid place-items-center font-head font-extrabold text-lg">S</div>
-          <div className="leading-none">
-            <div className="font-head font-extrabold text-xl">
-              <span className="text-primary">SUVIDHA</span>{' '}
-              <span className="text-[hsl(var(--saffron))]">AI</span>
-            </div>
-            <div className="text-[10px] tracking-wide text-muted-foreground">सुविधा • MoSJE</div>
-          </div>
+          <LogoFull />
         </Link>
 
         <div className="hidden lg:flex flex-1 max-w-md items-center gap-2 bg-secondary/70 border border-border rounded-full px-4 h-11">

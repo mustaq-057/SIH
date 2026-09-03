@@ -21,24 +21,9 @@ const Hero = () => {
   return (
     <section className="scheme-hero relative overflow-hidden bg-background">
       {/* ---- decorative background ---- */}
-      {/* concentric arcs bottom-left */}
-      <svg className="absolute -left-24 bottom-0 w-[420px] h-[420px] text-primary/45" viewBox="0 0 200 200" fill="none" aria-hidden>
-        {[30, 45, 60, 75, 90, 105].map((r) => (
-          <circle key={r} cx="30" cy="180" r={r} stroke="currentColor" strokeWidth="1.4" />
-        ))}
-      </svg>
-      {/* concentric arcs top-center-right */}
-      <svg className="absolute left-[46%] top-2 w-[320px] h-[320px] text-primary/40" viewBox="0 0 200 200" fill="none" aria-hidden>
-        {[26, 40, 54, 68, 82, 96].map((r) => (
-          <circle key={r} cx="70" cy="70" r={r} stroke="currentColor" strokeWidth="1.3" />
-        ))}
-      </svg>
       {/* dotted grid */}
-      <div className="dotgrid absolute left-[42%] bottom-8 w-40 h-36 text-primary/30 hidden md:block" aria-hidden />
-      {/* green spheres */}
-      <div className="hero-sphere absolute left-[58%] top-6 h-16 w-16 hidden md:block" aria-hidden />
-      <div className="hero-sphere absolute left-24 bottom-6 h-14 w-14 hidden md:block" aria-hidden />
-      {/* navy quarter dot + purple overlap circles */}
+      <div className="dotgrid absolute left-[42%] bottom-8 w-40 h-36 text-primary/25 hidden md:block" aria-hidden />
+      {/* navy dot + purple overlap circles */}
       <div className="absolute left-[52%] top-1/2 h-6 w-6 rounded-full bg-[hsl(var(--gov-navy))] hidden lg:block" aria-hidden />
       <div className="absolute right-[16%] bottom-6 h-40 w-40 rounded-full bg-[hsl(var(--gov-navy))]/10 hidden lg:block" aria-hidden />
       <div className="absolute right-[22%] bottom-14 h-32 w-32 rounded-full bg-[hsl(var(--gov-navy))]/10 hidden lg:block" aria-hidden />
